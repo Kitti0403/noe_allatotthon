@@ -6,6 +6,7 @@
     --white-color: #ffffff;
     --text-color: #000000;
     --box-shadow-color: rgba(0, 0, 0, 0.1);
+    --textbg: #e6ddc7;
 }
 
 body {
@@ -100,4 +101,8 @@ body {
     .news, .ads {
         width: 100%;
     }
+}
+
+.textbg{
+    background-color: var(--textbg);
 }
