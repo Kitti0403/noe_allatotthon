@@ -96,6 +96,15 @@ body {
     width: 5dvh;
 }
 
+.info{
+    background-color: var(--white-color);
+    border-radius: 1dvh;
+    padding: 2dvh;
+    width: 100%;
+    box-shadow: 0 0 1dvh var(--box-shadow-color);
+    margin-bottom: 2dvh;
+}
+
 @media (max-width: 768px) {
     .news, .ads {
         width: 100%;
