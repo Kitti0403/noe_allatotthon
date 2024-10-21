@@ -101,9 +101,25 @@ body {
     background-color: var(--white-color);
     border-radius: 1dvh;
     padding: 2dvh;
-    width: 100%;
+    width: 25%;
     box-shadow: 0 0 1dvh var(--box-shadow-color);
     margin-bottom: 2dvh;
+}
+
+.KEP{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--white-color);
+    border-radius: 1dvh;
+    padding: 2dvh;
+    width: 25%;
+    box-shadow: 0 0 1dvh var(--box-shadow-color);
+    margin-bottom: 2dvh;
+    
+}
+.image{
+    scale: 850%;
 }
 
 @media (max-width: 768px) {
