@@ -72,10 +72,13 @@ body {
 .news, .ads {
     background-color: var(--white-color);
     border-radius: 1dvh;
-    padding: 2dvh;
+    padding: 4dvh;
     width: 45%;
     box-shadow: 0 0 1dvh var(--box-shadow-color);
     margin-bottom: 2dvh;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
 }
 
 .news img, .ads img {
@@ -114,4 +117,11 @@ body {
 
 .textbg{
     background-color: var(--textbg);
+}
+
+.Headline {
+    font-size: 30px; 
+    padding: 8px; 
+    font-weight: bold;
+    
 }
