@@ -100,17 +100,20 @@ body {
 .info{
     background-color: var(--white-color);
     border-radius: 1dvh;
-    padding: 2dvh;
-    width: 90%;
+    padding-left: 2dvh;
+    padding-right: 2dvh;
+    width: 92%;
+    height: 100%;
     box-shadow: 0 0 1dvh var(--box-shadow-color);
+    overflow: hidden;
 }
 
 .KEP{
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 1dvh;
-    padding: 2dvh;
+    padding-left: 2dvh;
+    padding-right: 2dvh;
     width: 90%;
     height: 25%;
     
@@ -126,17 +129,19 @@ body {
     width: 30dvw;
     height: 60dvh;
     flex-direction: column;
+    
 }
 .minden{
     display:flex;
     flex-wrap: wrap;
     height: 100%;
+    gap: 10px;
 }
 
 @media (max-width: 768px) {
     .news, .ads {
         width: 100%;
-    }
+    }   
 }
 
 .textbg{
