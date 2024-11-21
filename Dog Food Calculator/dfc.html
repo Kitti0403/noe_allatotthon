@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kutyakaja Számláló</title>
+    <link rel="stylesheet" href="DFCss.css">
+
+</head>
+<body>
+    
+
+    <div class="so-widget-sow-raw-dog-food-calculator so-widget-sow-raw-dog-food-calculator-default-d75171398898">
+        <div class="c-raw-dog-food-calculator">
+        
+            <div class="c-raw-dog-food-calculator__inner">
+        
+                            <h3 class="c-raw-dog-food-calculator__heading">
+                        Raw Dog Food Calculator			</h3>
+        
+                            <div class="c-raw-dog-food-calculator__content"><p class="p1">Enter your dog’s details below and find out how much you should feed your dog.</p>
+        </div>
+        
+                <div class="row columns c-row--flex c-row--flex-centre">
+        
+                    <div class="column large-6 medium-6 small-12">
+                        <h4 class="c-raw-dog-food-calculator__subheading one">Lifestage?</h4>
+                    </div>
+        
+                    <div class="column large-6 medium-6 small-12 c-column--flex">
+        
+                        <div class="input_container input_container_radio">
+        
+                            <ul class="input_radio" id="input_1_2">
+        
+                                <li class="gchoice_1_2_0 c-raw-dog-food-calculator__lifestage adult">
+                                    <input id="adult" name="radio" type="radio" value="adult">
+                                    <label for="adult" id="label_1_2_0">Adult</label>
+                                </li>
+        
+                                <li class="gchoice_1_2_1 c-raw-dog-food-calculator__lifestage puppy">
+                                    <input id="puppy" name="radio" type="radio" value="puppy">
+                                    <label for="puppy" id="label_1_2_1">Puppy</label>
+                                </li>
+        
+                            </ul>
+        
+                        </div>
+        
+                    </div>
+        
+                </div>
+        
+                <div id="dog-weight-container" class="row row--large columns c-row--flex c-row--flex-centre" style="">
+        
+                    <div class="column large-6 medium-6 small-12">
+                        <h4 id="dog_weight_heading" class="c-raw-dog-food-calculator__subheading" style="">Weight Goals</h4>
+                        <h4 id="puppy_weight_heading" class="c-raw-dog-food-calculator__subheading" style="display: none;">Puppy Age in Weeks</h4>
+                    </div>
+        
+                    <div class="column large-6 medium-6 small-12">
+        
+                        <div class="input_container">
+        
+                        <label id="dog_weight" class="column one control-label" for="textinput" style="">
+                            <select id="selectbasic2" class="form-control c-raw-dog-food-calculator__select" name="selectbasic2">
+                                <option value="">Select</option>
+                                <option value="2">Lose</option>
+                                <option value="3">Maintain</option>
+                                <option value="4">Gain</option>
+                            </select>
+                            <br>
+                            <span class="c-raw-dog-food-calculator__select-label"></span>
+                        </label>
+        
+                            <label id="puppy_weight" class="column one control-label" for="textinput" style="display: none;">
+                                <select id="puppyage" class="form-control c-raw-dog-food-calculator__select" name="selectbasic2">
+                                    <option value="">Select</option>
+                                    <option value="2">7-10 Weeks</option>
+                                    <option value="3">10-16 Weeks</option>
+                                    <option value="4">16-20 Weeks</option>
+                                    <option value="5">20-24 Weeks</option>
+                                    <option value="6">24-36 Weeks</option>
+                                    <option value="7">36-56 Weeks</option>
+                                    <option value="8">56-68 Weeks</option>
+                                    <option value="9">68+ Weeks</option>
+                                </select>
+                                <br>
+                                <span class="c-raw-dog-food-calculator__select-label"></span>
+                            </label>
+        
+                        </div>
+        
+                    </div>
+                </div>
+        
+                <div class="row columns">
+        
+                    <div class="column large-6 medium-6 small-12">
+                        <h4 class="c-raw-dog-food-calculator__subheading two">My Dog's Weight is...</h4>
+                    </div>
+        
+                    <div class="column large-6 medium-6 small-12">
+        
+                        <div class="input_container">
+                            <input id="body_weight" class="form-control input-md c-raw-dog-food-calculator__input" name="textinput" type="text" placeholder="Enter weight...">
+                            <span class="c-raw-dog-food-calculator__input-label">KG</span>
+                        </div>
+        
+                    </div>
+                </div>
+        
+                <div class="c-raw-dog-food-calculator__buttons">
+        
+                    <label class="c-raw-dog-food-calculator__result" for="textinput" id="result-wrapper" style="display: none;">
+                        <span>Result</span>
+                        <span>Ideally your dog should be having </span>
+                        <input id="result" class="form-control input-md" name="result" type="text" value="0" placeholder="">
+                        <span class="result"></span>
+                        <span> grams (total) daily</span>
+        
+                    </label>
+        
+        
+                        <button id="calculate" type="submit" class="c-button no-variation"> Calculate Dog Food </button>
+        
+        
+                </div>
+        
+            </div>
+        
+        </div></div>
+        
+        <p>this is a test</p>
+          <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+
+
+  <script src="dfc.js"></script>
+</body>
+</html>
+
