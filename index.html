@@ -22,7 +22,7 @@
             </a>
             <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
 <!-- Donate shortcut button  -->
-              <button data-popover-target="popover-default" type="button" class="text-white bg-'FFF8E8'-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Adományozok</button>
+              <button data-popover-target="popover-default" type="button" class="mr-5 text-black bg-[#FFF8E8] hover:bg-[#E4D7B8] focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Adományozok</button>
 
               <div data-popover id="popover-default" role="tooltip" class="absolute z-10 invisible inline-block w-64 text-sm text-gray-500 transition-opacity duration-300 bg-white border border-gray-200 rounded-lg shadow-sm opacity-0 dark:text-gray-400 dark:border-gray-600 dark:bg-gray-800">
                   <div class="px-3 py-2 bg-gray-100 border-b border-gray-200 rounded-t-lg dark:border-gray-600 dark:bg-gray-700">
@@ -35,7 +35,7 @@
               </div>
 
               <!-- Modal toggle -->
-<button data-modal-target="authentication-modal" data-modal-toggle="authentication-modal" class="block text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" type="button">
+<button data-modal-target="authentication-modal" data-modal-toggle="authentication-modal" class="block text-black bg-[#FFF8E8] hover:bg-[#E4D7B8] focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" type="button">
   Bejelentkezés
 </button>
 
@@ -45,7 +45,7 @@
         <!-- Modal content -->
         <div class="relative bg-white rounded-lg shadow dark:bg-gray-700">
             <!-- Modal header -->
-            <div class="flex items-center justify-between p-4 md:p-5 border-b rounded-t dark:border-gray-600">
+            <div class="flex items-center justify-between p-4 md:p-5 border-b rounded-t dark:border-gray-600 animate-pulse">
                 <h3 class="text-xl font-semibold text-gray-900 dark:text-white">
                   Jelentkezz be az oldalunkra </h3>
                 </h3>
@@ -60,11 +60,11 @@
             <div class="p-4 md:p-5">
                 <form class="space-y-4" action="#">
                     <div>
-                        <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your email</label>
+                        <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Email címed</label>
                         <input type="email" name="email" id="email" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white" placeholder="name@company.com" required />
                     </div>
                     <div>
-                        <label for="password" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your password</label>
+                        <label for="password" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Jelszavad</label>
                         <input type="password" name="password" id="password" placeholder="••••••••" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white" required />
                     </div>
                     <div class="flex justify-between">
@@ -72,13 +72,13 @@
                             <div class="flex items-center h-5">
                                 <input id="remember" type="checkbox" value="" class="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-blue-300 dark:bg-gray-600 dark:border-gray-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 dark:focus:ring-offset-gray-800" required />
                             </div>
-                            <label for="remember" class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">Remember me</label>
+                            <label for="remember" class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">Emlékezz rám</label>
                         </div>
-                        <a href="#" class="text-sm text-blue-700 hover:underline dark:text-blue-500">Lost Password?</a>
+                        <a href="#" class="text-sm text-blue-700 hover:underline dark:text-blue-500">Elfelejtett jelszó?</a>
                     </div>
-                    <button type="submit" class="w-full text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Login to your account</button>
+                    <button type="submit" class="w-full text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Bejelentkezés a fiókodba</button>
                     <div class="text-sm font-medium text-gray-500 dark:text-gray-300">
-                        Not registered? <a href="#" class="text-blue-700 hover:underline dark:text-blue-500">Create account</a>
+                        Nem vagy regisztrálva?? <a href="#" class="text-blue-700 hover:underline dark:text-blue-500">Fiók létrehozása</a>
                     </div>
                 </form>
             </div>
@@ -100,13 +100,13 @@
                   <button class="block  bg-[#E4D7B8] hover:bg-brown-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-bold rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 text-brown-700 ">Főoldal</button>
                 </li>
                 <li>
-                    <button class="block  bg-[#FFF8E8] hover:bg-blue-100 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 text-brown-700">Rólunk</button>
+                    <button class="block  bg-[#FFF8E8] hover:bg-[#E4D7B8] focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 text-black-400">Rólunk</button>
                 </li>
                 <li>
-                    <button class="block  bg-[#FFF8E8] hover:bg-blue-100 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 text-brown-700">Szolgáltatásaink</button>
+                    <button class="block  bg-[#FFF8E8] hover:bg-[#E4D7B8] focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 text-black-400">Szolgáltatásaink</button>
                 </li>
                 <li>
-                    <button class="block  bg-[#FFF8E8] hover:bg-blue-100 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 text-brown-700">Elérhetőségek</button>
+                    <button class="block  bg-[#FFF8E8] hover:bg-[#E4D7B8] focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 text-black-400">Elérhetőségek</button>
                 </li>
               </ul>            <div class="md-12">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
@@ -126,26 +126,30 @@
            <div class="content">
             <div class="news" >
              <h2 class="Headline">
-              Mugli Állapota
+              Mugli elment..
              </h2>
-             Mugli, a Noé Állatotthon Alapítvány Szergényi menhelyének védence, sajnos nincs jól. Hétfőn észleltük, hogy a korábban aktív kutyánk most lethagyott és nyugodt. Vizelete és széklete véres, ráadásul teljesen elvesztette az étvágyát.
-
-             <img alt="insert doggo image here" height="20dvh" src="" width="40dvh"/>
-             <div class="textbg">
+             <p class="mb-5 mt-5">
+             Emlékeinkben mindig megmarad olyan boldognak, mint amilyen betegsége előtt volt. 
+             Aki pörgött a kennelben, eltudott játszani egy műanyag tállal is. 
+             Aki a kis kancsal nézésével várta a jutit. 
+             Akinek fontosabb volt a játszótéren lógni a gumin, vagy labdázni, mint elmenni sétálni.
+</p>
+             <img alt="insert doggo image here" height="20dvh" src="images/Mugli.jpg" width="40dvh"/>
+             <div class="">
                 <div class="text">
-                [ some news blah blah blah sdahsdasdasdasddsadasad ]
+                  Hatalmas űrt hagyva magad után szaladj szabadon.. 🖤🕯️
+                  Nagyon szeretünk 💔
                 </div>
-                <div class="doggo">
-                <img alt="doggo image" height="5dvh" src="" width="5dvh"/>
-                </div>
-                <img alt="insert doggo image here" height="20dvh" src="" width="40dvh"/>
+                
+                <img alt="insert doggo image here" height="20dvh" src="images/Mugli2.jpg" width="40dvh"/>
                 </div>
             </div>
             <div class="ads">
              <div class="text">
-              [ maybe ads cuz we greedy? ]
+              <h2 class="Headline">JJ, alias Zoé ismét jelentkezik </h2>
               <br/>
-              [ Or some random dog fact ]
+              <p>2024.10.24.</p>
+              <img alt="insert doggo image here" height="20dvh" src="images/Zoe.jpg" width="40dvh"/>
              </div>
             </div>
            </div>
@@ -153,7 +157,7 @@
       
 <footer class="align-middle">
     
-
+<div class="flex items-center justify-center">
 <nav aria-label="Page navigation example">
     <ul class="inline-flex -space-x-px text-sm">
       <li>
@@ -179,32 +183,7 @@
       </li>
     </ul>
   </nav>
-  <nav aria-label="Page navigation example">
-    <ul class="inline-flex -space-x-px text-base h-10">
-      <li>
-        <a href="#" class="flex items-center justify-center px-4 h-10 ms-0 leading-tight text-gray-500 bg-white border border-e-0 border-gray-300 rounded-s-lg hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">Previous</a>
-      </li>
-      <li>
-        <a href="#" class="flex items-center justify-center px-4 h-10 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">1</a>
-      </li>
-      <li>
-        <a href="#" class="flex items-center justify-center px-4 h-10 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">2</a>
-      </li>
-      <li>
-        <a href="#" aria-current="page" class="flex items-center justify-center px-4 h-10 text-blue-600 border border-gray-300 bg-blue-50 hover:bg-blue-100 hover:text-blue-700 dark:border-gray-700 dark:bg-gray-700 dark:text-white">3</a>
-      </li>
-      <li>
-        <a href="#" class="flex items-center justify-center px-4 h-10 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">4</a>
-      </li>
-      <li>
-        <a href="#" class="flex items-center justify-center px-4 h-10 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">5</a>
-      </li>
-      <li>
-        <a href="#" class="flex items-center justify-center px-4 h-10 leading-tight text-gray-500 bg-white border border-gray-300 rounded-e-lg hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">Next</a>
-      </li>
-    </ul>
-  </nav>
-  
+  </div>
 </footer>
     <script src="script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.js"></script>
