@@ -103,48 +103,16 @@ body {
 .info{
     background-color: var(--white-color);
     border-radius: 1dvh;
-    padding-left: 2dvh;
-    padding-right: 2dvh;
-    width: 92%;
-    height: 100%;
-    box-shadow: 0 0 1dvh var(--box-shadow-color);
-    overflow: hidden;
-}
-
-.KEP{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-left: 2dvh;
-    padding-right: 2dvh;
-    width: 90%;
-    height: 25%;
-    
-}
-.image{
-    scale: 100%;
-}
-
-.box{
     padding: 2dvh;
-    display: flex;
-    flex-wrap: wrap;
-    width: 30dvw;
-    height: 60dvh;
-    flex-direction: column;
-    
-}
-.minden{
-    display:flex;
-    flex-wrap: wrap;
-    height: 100%;
-    gap: 10px;
+    width: 100%;
+    box-shadow: 0 0 1dvh var(--box-shadow-color);
+    margin-bottom: 2dvh;
 }
 
 @media (max-width: 768px) {
     .news, .ads {
         width: 100%;
-    }   
+    }
 }
 
 .textbg{
