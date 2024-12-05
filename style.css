@@ -26,9 +26,7 @@ body {
 }
 
 .header .logo {
-    background-color: var(--white-color);
-    padding: 1dvh;
-    width: 10dvh;
+    width: 7.5dvh;
     text-align: center;
 }
 
