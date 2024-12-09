@@ -12,7 +12,42 @@
 
     <main>
         <div class="container">
+            <div class="row1">
+                <header>
+                    <h1>Milyen háziállatod van?</h1>
+                </header>
+            </div>
+            <div class="row2">
+                <button class="buttonKutya" value="kutya">
+                    Kutya
+                </button>
+                <button class="buttonMacska" value="macska">
+                    Macska
+                </button>
+            </div>
 
+            <div class="columns">
+                <div class="columnLeft">
+                    <header>
+                        <h1>Hány kilós?</h1>
+                    </header>
+                    <input type="number" name="kilo" id="kilo">
+                    <header>
+                        <h1>Milyen idős?</h1>
+                    </header>
+                    <select name="kor" id="kor">
+                        <option value="valassz" disabled selected>Válassz...</option>
+                        <option value="kolyok">Kölyök (12 hónap alatt)</option>
+                        <option value="felnott">Felnőtt (1-8 év között)</option>
+                        <option value="idos">Idős (8 év felett)</option>
+                    </select>
+                </div>
+                <div class="columnRight">
+                    <div class="valasz">
+    
+                    </div>
+                </div>
+            </div> 
         </div>
     </main>
 
