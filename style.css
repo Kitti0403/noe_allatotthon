@@ -25,6 +25,11 @@ body {
     flex-wrap: wrap;
 }
 
+.logo img{
+    height: 40px;
+    scale: 155%;
+}
+
 .header .logo {
     width: 7.5dvh;
     text-align: center;

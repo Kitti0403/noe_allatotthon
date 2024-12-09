@@ -3,7 +3,7 @@ document.getElementById("navbar").innerHTML =
 <div class="header">
         <div class="nav">
             <div class="logo">
-                <img alt="noe logo" src="images/noe_logo_no-bg.png">
+                <img alt="noe logo" src="../images/noe_logo_no-bg.png">
             </div>
             
             <a href="../rolunk/rolunk.html"><button> 
