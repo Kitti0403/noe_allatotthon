@@ -6,16 +6,16 @@ document.getElementById("navbar").innerHTML =
                 <img alt="noe logo" src="../images/noe_logo_no-bg.png">
             </div>
             
-            <a href="../rolunk/rolunk.html"><button> 
+            <a href="../rolunk/rolunk.html"><button class="nav-butt"> 
                 Rólunk
             </button></a>
 
-            <a href="../elerhetosegek/elerhetoseg.html"><button>
+            <a href="../elerhetosegek/elerhetoseg.html"><button class="nav-butt">
                 Elérhetőségeink
             </button></a>
 
 
-            <a href="../adomanyozas/adomany.html"><button>
+            <a href="../adomanyozas/adomany.html"><button class="nav-butt">
                 Adományozás
             </button></a>
 
@@ -34,7 +34,6 @@ document.getElementById("navbar").innerHTML =
                 </svg>
             </a>
 
-            <!-- burger menu -->
             
             <div class="icons">
                 <i class="fa fa-home">
@@ -43,7 +42,7 @@ document.getElementById("navbar").innerHTML =
                 </i>
                 <i class="fa fa-paw">
                 </i>
-                <!-- --------------- -->
+
             </div>
         </div>
     </div>
