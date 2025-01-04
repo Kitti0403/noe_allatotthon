@@ -13,22 +13,19 @@
     display: flex;
     flex-direction: column;
     background: #FFF8E8;
-    margin: 0;
-    padding: 0;
+    margin: auto;
+    padding: 4vh;
     width: fit-content;
     height: fit-content;
     flex-shrink: 0;
     border-radius: 30px;
-    margin: auto;
-    padding: 4vh;
     margin-top: 4.5vh;
     margin-bottom: 4.5vh;
     box-shadow: 0px 0px 0px 5px #8B95B3;
 }
 
-.row1{
+.row1 {
     display: flex;
-    
 }
 
 h1 {
@@ -38,14 +35,14 @@ h1 {
     margin: 10px 0px 10px 0px;
 }
 
-.row2{
+.row2 {
     display: flex;
     flex-direction: row;
     gap: 2vh;
     justify-content: space-evenly;
 }
 
-.buttonKutya, .buttonMacska{
+.buttonKutya, .buttonMacska {
     color: #B0B8C8;
     font-size: 2.5rem;
     font-weight: 600;
@@ -58,15 +55,15 @@ h1 {
     background: #DCE5FF;
     box-shadow: 5.439px 5.439px 4.351px 0px rgba(63, 87, 159, 0.50);
 }
-/* JS: HA KI VAN VÁLASZTVA!! (SELECTED) */
-.selected{
+
+.selected {
     color: #fff;
     border-radius: 50px;
     background: #4965B8;
     box-shadow: 5.439px 5.439px 4.351px 0px rgba(63, 87, 159, 0.80);
 }
 
-.kiloInput, .korSelect{
+.kiloInput, .korSelect {
     text-align: center;
     color: #000;
     font-size: 2.2rem;
@@ -82,23 +79,173 @@ h1 {
     margin-left: 1vh;
 }
 
-.columnRight{
-    display: flex;
-    justify-content: space-evenly;
+.korSelect {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: none;
+    padding-right: 1rem;
 }
 
-.valasz{
-    margin-top: 3vh;
-    width: 100%;
-    height: 20vh;
+.korSelect::after {
+    content: '\25BC';
+    position: absolute;
+    right: 1rem;
+    pointer-events: none;
+}
+
+.columnRight {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+}
+
+.valasz {
+    margin-top: 10vh;
+    width: 33.7vw;
+    min-height: 19vh;
     background: #3F579F;
     border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 1.5rem;
+    text-align: center;
+    overflow: hidden;
+    padding: 1rem;
+    box-sizing: border-box;
+    flex-grow: 1;
 }
 
-header{
+header {
     color: #000;
     font-size: 3vw;
     font-style: normal;
     font-weight: 400;
-    line-height: normal;
+}
+
+.columns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.columnLeft, .columnRight {
+    flex: 1;
+    margin: 10px;
+}
+
+@media (max-width: 768px) {
+    .columns {
+        flex-direction: column;
+    }
+}
+
+.calculateButton {
+    margin-top: 2vh;
+    width: 100%;
+    height: 10vh;
+    background: #4965B8;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 5.439px 5.439px 4.351px 0px rgba(63, 87, 159, 0.50);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    align-self: flex-end;
+}
+
+.calculateButton:hover {
+    background: #3F579F;
+}
+
+.calculateButton:active {
+    transform: translateY(2px);
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding: 1rem;
+        margin: 2rem;
+    }
+
+    .row1, .row2 {
+        text-align: center;
+    }
+
+    .row2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .columns {
+        flex-direction: column;
+    }
+
+    .columnLeft, .columnRight {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    .valasz {
+        width: 100%;
+        margin-top: 1rem;
+    }
+
+    .buttonKutya, .buttonMacska, .calculateButton {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    .kiloInput, .korSelect {
+        width: 100%;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 768px) {
+    .container {
+        padding: 1rem;
+        margin: 2rem auto;
+        max-width: 90%;
+    }
+
+    .row1, .row2 {
+        text-align: center;
+    }
+
+    .row2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .columns {
+        flex-direction: column;
+    }
+
+    .columnLeft, .columnRight {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    .valasz {
+        width: 100%;
+        margin-top: 1rem;
+    }
+
+    .buttonKutya, .buttonMacska, .calculateButton {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    .kiloInput, .korSelect {
+        width: 100%;
+    }
 }
