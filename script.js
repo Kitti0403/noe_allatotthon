@@ -35,15 +35,40 @@ document.getElementById("navbar").innerHTML =
             </a>
 
             
-            <div class="icons">
-                <i class="fa fa-home">
-                </i>
-                <i class="fa fa-bars">
-                </i>
-                <i class="fa fa-paw">
-                </i>
+            <div class="dropdown" onclick="bugerMenu()">
+                <div class="container" onclick="myFunction(this)">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
 
+                    <div id="myDropdown" class="dropdown-content">
+                        <a href="../rolunk/rolunk.html">Rólunk</a>
+                        <a href="../elerhetosegek/elerhetoseg.html">Elérhetőségek</a>
+                        <a href="../adomanyozas/adomany.html">Adományozás</a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 `;
+
+function bugerMenu() {
+    document.getElementById("myDropdown").classList.toggle("slhow");
+  }
+  
+  window.onclick = function(event) {
+    if (!event.target.matches('.dropbtn')) {
+      var dropdowns = document.getElementsByClassName("dropdown-content");
+      var i;
+      for (i = 0; i < dropdowns.length; i++) {
+        var openDropdown = dropdowns[i];
+        if (openDropdown.classList.contains('show')) {
+          openDropdown.classList.remove('show');
+        }
+      }
+    }
+  }
+
+  function myFunction(x) {
+    x.classList.toggle("change");
+  }
