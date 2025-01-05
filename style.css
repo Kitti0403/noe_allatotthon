@@ -69,10 +69,10 @@ body {
 }
 
 .content {
-    display: flex;
+   /* display: flex;
     justify-content: space-between;
     padding: 2dvh;
-    flex-wrap: wrap;
+    flex-wrap: wrap;*/
 }
 
 .news, .ads {
