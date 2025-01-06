@@ -38,6 +38,7 @@ body {
 }
 
 .header .nav {
+    width: 100%;
     display: flex;
     gap: 1dvh;
     flex-wrap: wrap;
@@ -173,7 +174,7 @@ a{
     }
 
 
-    .container {
+    .drop-container {
         display: inline-block;
         cursor: pointer;
     }
@@ -233,6 +234,8 @@ a{
     .box{width: 80dvw;}
 
     .info{width: 100%;}
+
+    .header .nav{justify-content: space-between;}
 
 }
 
