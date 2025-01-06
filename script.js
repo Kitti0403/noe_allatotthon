@@ -36,7 +36,7 @@ document.getElementById("navbar").innerHTML =
 
             
             <div class="dropdown" onclick="bugerMenu()">
-                <div class="container" onclick="myFunction(this)">
+                <div class="drop-container" onclick="myFunction(this)">
                     <div class="bar1"></div>
                     <div class="bar2"></div>
                     <div class="bar3"></div>
