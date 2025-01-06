@@ -9,7 +9,7 @@
     --textbg: #e6ddc7;
 }
 
-.container {
+.calc-container {
     display: flex;
     flex-direction: column;
     background: #FFF8E8;
