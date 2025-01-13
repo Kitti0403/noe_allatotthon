@@ -15,40 +15,55 @@
         <!-- Use the same css div style (example: kalkulátor container div) height: change by content, width: fixed-->
 
         <!-- Column1-->
-        <div class="shelterSite">
-            <h2>Telephelyünk</h2>
-            <p>Budapest XVII.ker. <br>
-                Csordakút utca 138634/3 hrsz. <br>
-                Ha állattal érkezik jelentkezzen be előre telefonon!
-            </p>
-            <img src="../images/telephely1.png" alt="Telephelyen lévő kutyák">
-        </div>
-
-        <div class="openingHours">
-            <h2>Nyitvatartás</h2>
-            <!-- TODO: center text-->
-            <p>Hétfő - Szombat: 9:30-tól 15:30-ig <br>
-                Vasárnap: 10-től 14-ig <br>
-                Minden szombat nyílt nap. <br>
-                Szeretettel várunk mindenkit!</p>
+        <div class="column1">
+            <div class="contact-card shelterSite">
+                <h2>Telephelyünk</h2>
+                <p>Budapest XVII.ker. <br>
+                    Csordakút utca 138634/3 hrsz. <br>
+                    Ha állattal érkezik jelentkezzen be előre telefonon!
+                </p>
+                <img src="../images/telephely1.png" alt="Telephelyen lévő kutyák">
+            </div>
+    
+            <div class="contact-card" title="openingHours">
+                <h2>Nyitvatartás</h2>
+                <!-- TODO: center text-->
+                <p class="openingHoursText">Hétfő - Szombat: 9:30-tól 15:30-ig <br>
+                    Vasárnap: 10-től 14-ig <br> <br>
+                    Minden szombat nyílt nap. <br>
+                    Szeretettel várunk mindenkit!</p>
+            </div>
         </div>
 
         <!-- Column2-->
-        <div class="dogWalk">
-            <h2>Kutya sétáltatás</h2>
-            <p>Szombat: 10:30 és 13:00 óra között. <br>
-                Extrém időjárási körülmény miatt változhat. <br>
-                Fényképes igazolvány szükséges!</p>
-            <img src="../images/telephely2.png" alt="Kutya sétáltatás">
+        <div class="column2">
+            <div class="contact-card dogWalk">
+                <h2>Kutya sétáltatás</h2>
+                <p>Szombat: 10:30 és 13:00 óra között. <br>
+                    Extrém időjárási körülmény miatt változhat. <br>
+                    Fényképes igazolvány szükséges!</p>
+                <img src="../images/telephely2.png" alt="Kutya sétáltatás">
+            </div>
+    
+            <div class="contact-card paypal">
+                <h2>Paypal</h2>
+                <p>info@noeallatotthon.hu</p>
+            </div>
         </div>
-
-        <div class="Paypal">
-            <h2>Paypal</h2>
-            <p>info@noeallatotthon.hu</p>
-        </div>
-
+        
         <!-- Column3-->
+        <div class="column3">
+            <div class="contact-card address">
+                <h2>Postázási címeink</h2>
+                <p>Levelek esetén: <br> <p class="addressText">1656 Budapest, Pf. 100. </p></p> <br>
+                <p>Csomagok esetén: <br> <p class="addressText">1171 Budapest, Csordakút utca vége</p></p>
+            </div>
 
+            <div class="contact-card tax">
+                <h2>Adószámunk</h2>
+                <p>18169696-1-42</p>
+            </div>
+        </div>
     <script src="../script.js"></script>
 </body>
 </html>
