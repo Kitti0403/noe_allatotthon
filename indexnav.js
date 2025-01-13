@@ -45,11 +45,11 @@ document.getElementById("navbar").innerHTML =
                     <div class="bar3"></div>
 
                     <div id="myDropdown" class="dropdown-content">
-                        <a href="rolunk/rolunk.html">Rólunk</a>
-                        <a href="elerhetosegek/elerhetoseg.html">Elérhetőségek</a>
-                        <a href="adomanyozas/adomany.html">Adományozás</a>
-                        <a href="kalkulator/kalkulator.html">Kalkulátor</a>
-                        <a href="index.html">Főoldal</a>
+                        <a class="phonedrop" href="rolunk/rolunk.html">Rólunk</a>
+                        <a class="phonedrop" href="elerhetosegek/elerhetoseg.html">Elérhetőségek</a>
+                        <a class="phonedrop" href="adomanyozas/adomany.html">Adományozás</a>
+                        <a class="phonedrop" href="kalkulator/kalkulator.html">Kalkulátor</a>
+                        <a class="phonedrop" href="index.html">Főoldal</a>
                     </div>
                 </div>
             </div>
