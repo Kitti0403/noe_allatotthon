@@ -52,6 +52,8 @@ body {
     border-radius: 2dvh;
     font-size: 1.6dvh;
     cursor: pointer;
+    height: 72px;
+    width: 258px;
 }
 
 .header .nav button:hover {
@@ -258,8 +260,9 @@ a{
         display: none;
 
     }
-
-
+    .dropdown-content{
+        width: 100%;
+    }
 
 }
 
