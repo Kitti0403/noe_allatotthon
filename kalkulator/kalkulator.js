@@ -1,4 +1,4 @@
-const animalButtons = document.querySelectorAll('.buttonKutya, .buttonMacska'); 
+const animalButtons = document.querySelectorAll('.buttonKutya, .buttonMacska, .buttonHorse, .buttonGoat'); 
 const calculateButton = document.querySelector('.calculateButton');
 const valaszDiv = document.querySelector('.valasz');
 let selectedAnimal = '';
@@ -35,6 +35,10 @@ calculateButton.addEventListener('click', function() {
     result = calculateDogFood(weight, age);
   } else if (selectedAnimal === 'macska') {
     result = calculateCatFood(weight, age);
+  } else if (selectedAnimal === 'horse') {
+    result = calculateHorseFood(weight, age);
+  } else if (selectedAnimal === 'goat') {
+    result = calculateGoatFood(weight, age);
   }
 
   valaszDiv.textContent = `Az ajánlott napi ételmennyiség: ${result} gramm.`;
@@ -45,19 +49,37 @@ function calculateDogFood(weight, age) {
   if (age === 'kolyok') {
     return weight * 10;
   } else if (age === 'felnott') {
-    return weight * 8;
-  } else if (age === 'idos') {
-    return weight * 6;
+    return weight * 5;
   }
 }
 
 function calculateCatFood(weight, age) {
   // Example calculation for cat food
   if (age === 'kolyok') {
-    return weight * 5;
+    return weight * 8;
   } else if (age === 'felnott') {
     return weight * 4;
+  }
+}
+
+function calculateHorseFood(weight, age) {
+  // Example calculation for horse food
+  if (age === 'kolyok') {
+    return weight * 15;
+  } else if (age === 'felnott') {
+    return weight * 7;
   } else if (age === 'idos') {
-    return weight * 3;
+    return weight * 5;
+  }
+}
+
+function calculateGoatFood(weight, age) {
+  // Example calculation for goat food
+  if (age === 'kolyok') {
+    return weight * 12;
+  } else if (age === 'felnott') {
+    return weight * 6;
+  } else if (age === 'idos') {
+    return weight * 4;
   }
 }

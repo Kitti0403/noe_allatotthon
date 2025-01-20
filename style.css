@@ -30,6 +30,7 @@ body {
 .logo img{
     height: 40px;
     scale: 155%;
+    margin: 3px;
 }
 
 .header .logo {
@@ -40,8 +41,7 @@ body {
 .header .nav {
     width: 100%;
     display: flex;
-    gap: 1dvh;
-    flex-wrap: wrap;
+    gap: 2dvh;
     align-items: center
 }
 
@@ -69,12 +69,12 @@ body {
     cursor: pointer;
 }
 
-.content {
-   /* display: flex;
+/* .content {
+    display: flex;
     justify-content: space-between;
     padding: 2dvh;
-    flex-wrap: wrap;*/
-}
+    flex-wrap: wrap;
+} */
 
 .news, .ads {
     background-color: var(--white-color);
@@ -117,6 +117,9 @@ body {
     box-shadow: 0 0 1dvh var(--box-shadow-color);
     overflow: hidden;
     block-size: fit-content;
+    border-radius: 30px;
+    background: #FFF8E8;
+    box-shadow: 0px 0px 0px 5px #8B95B3;
 }
 
 .KEP{
@@ -155,6 +158,20 @@ a{
 }
 .dropdown-content{
     display: none;
+}
+
+.navicons{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    gap:0.5dvw
+}
+
+.nav-butt{
+    height: 100% !important; 
+    border-radius: 50px;
+    background: #FFF8E8;
+    box-shadow: 0px 0px 0px 5px #76809F;
 }
 
 @media (max-width: 768px) {
@@ -236,6 +253,13 @@ a{
     .info{width: 100%;}
 
     .header .nav{justify-content: space-between;}
+
+    .navicons{
+        display: none;
+
+    }
+
+
 
 }
 
