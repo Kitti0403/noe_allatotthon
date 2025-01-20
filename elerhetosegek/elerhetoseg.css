@@ -50,5 +50,23 @@ img{
 }
 
 @media (max-width: 768px){
-    /* TODO: phone view  */
+    .contactsContainer{
+        flex-direction: column;
+        align-items: center;
+        gap: 0;
+        
+    }
+
+    .contact-card{
+        width: 80vw;
+        margin-bottom: 1vh;
+    }
+
+    h2{
+        font-size: 3vh;
+    }
+
+    p{
+        font-size: 1.8vh;
+    }
 }
