@@ -109,6 +109,13 @@ body {
     width: 5dvh;
 }
 
+h2{
+    font-size: 3.5vh;
+    font-style: normal;
+    font-weight: 600;
+    margin: 10px 0px 10px 0px;
+}
+
 .info{
     background-color: var(--white-color);
     border-radius: 1dvh;
@@ -125,15 +132,10 @@ body {
 }
 
 .KEP{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-left: 2dvh;
-    padding-right: 2dvh;
-    width: 90%;
-    height: 25%;
-    flex-shrink: 0;
-    
+    width: 100%;
+    height: auto;
+    border-radius: 30px;
+    margin-bottom:1vh;
 }
 .image{
     scale: 100%;
@@ -149,6 +151,8 @@ body {
     
 }
 .minden{
+    justify-content: center;
+    align-items: center;
     display:flex;
     flex-wrap: wrap;
     height: 100%;
