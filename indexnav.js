@@ -4,7 +4,7 @@ document.getElementById("navbar").innerHTML =
       <div class="nav">
           <div class="logo">
             <a href="index.html">
-              <img alt="noe logo" src="images/noe_logo_no-bg.png">
+              <img alt="noe logo" src="images/noe_logo.png">
             </a>
           </div>
           

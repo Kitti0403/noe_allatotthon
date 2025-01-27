@@ -24,13 +24,14 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    flex-wrap: wrap;
-}
+    flex-wrap: wrap;}
 
 .logo img{
-    height: 40px;
+    height: 40px; 
     scale: 155%;
     margin: 3px;
+    width: 45px;
+    border-radius: 0 !important;
 }
 
 .header .logo {
@@ -52,8 +53,8 @@ body {
     border-radius: 2dvh;
     font-size: 1.6dvh;
     cursor: pointer;
-    height: 72px;
-    width: 258px;
+    height: 100% !important; 
+    width: 258px !important;
 }
 
 .header .nav button:hover {
@@ -174,8 +175,7 @@ a{
 }
 
 .nav-butt{
-    height: 100% !important; 
-    border-radius: 50px;
+    border-radius: 50px !important;
     background: #FFF8E8;
     box-shadow: 0px 0px 0px 5px #76809F;
 }
@@ -226,12 +226,16 @@ a{
         position: absolute;
         background-color: #f1f1f1;
         right: 0;
-        min-width: 160px;
+        min-width:  100dvw;
         overflow: auto;
         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
         z-index: 10000000000;
+        margin-left: 100px;
+        position: fixed;
     }
-    
+    .phonedrop{
+        text-align: center ;
+    }    
   .dropdown-content a {
         color: black;
         padding: 12px 16px;
