@@ -232,6 +232,7 @@ a{
         z-index: 10000000000;
         margin-left: 100px;
         position: fixed;
+        margin-top: 18px;
     }
     .phonedrop{
         text-align: center ;
