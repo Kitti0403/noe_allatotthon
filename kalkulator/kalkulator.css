@@ -35,7 +35,7 @@ h1 {
     margin: 10px 0px 10px 0px;
 }
 
-.row2{
+.row2 {
     margin-bottom: 2vh;
 }
 
@@ -144,8 +144,46 @@ header {
 }
 
 @media (max-width: 768px) {
+    .calc-container {
+        width: 80vw;
+        margin-bottom: 1vh;
+    }
+
+    h1 {
+        font-size: 5vh;
+    }
+
+    .row2, .row3 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .buttonKutya, .buttonMacska, .buttonHorse, .buttonGoat {
+        width: 100%;
+        margin-bottom: 1vh;
+    }
+
+    .kiloInput, .korSelect {
+        width: 100%;
+    }
+
     .columns {
         flex-direction: column;
+    }
+
+    .columnLeft, .columnRight {
+        width: 100%;
+        margin-bottom: 1vh;
+    }
+
+    .valasz {
+        width: 100%;
+        margin-top: 1vh;
+    }
+
+    .calculateButton {
+        width: 100%;
+        margin-bottom: 1vh;
     }
 }
 
@@ -171,49 +209,4 @@ header {
 
 .calculateButton:active {
     transform: translateY(2px);
-}
-
-@media (min-width: 200px) and (max-width: 768px) {
-    .container {
-        padding: 1rem;
-        margin: 2rem auto;
-        max-width: 90%;
-    }
-
-    .row1, .row2 {
-        text-align: center;
-    }
-
-    .row2, .row3 {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .columns {
-        flex-direction: column;
-    }
-
-    .columnLeft, .columnRight {
-        width: 100%;
-        margin-bottom: 1rem;
-    }
-
-    .valasz {
-        width: 100%;
-        margin-top: 1rem;
-    }
-
-    .buttonKutya, .buttonMacska, .calculateButton, .buttonHorse, .buttonGoat {
-        width: 100%;
-        margin-bottom: 1rem;
-    }
-
-    .kiloInput, .korSelect {
-        width: 100%;
-    }
-
-    .columnLeft h1{
-        text-align: center;
-    }
 }
