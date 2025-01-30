@@ -43,7 +43,7 @@ body {
     display: flex;
     gap: 2dvh;
     align-items: center;
-    padding: 20px;
+    padding: 15px;
 }
 
 .header .nav button {
@@ -51,9 +51,10 @@ body {
     border: none;
     padding: 1dvh 6dvh;
     border-radius: 2dvh;
-    font-size: 1.6dvh;
+    font-size: medium;
     cursor: pointer;
     height: 100% !important; 
+    font-weight: bold;
 }
 
 .header .nav button:hover {
@@ -71,13 +72,6 @@ body {
     cursor: pointer;
 }
 
-/* .content {
-    display: flex;
-    justify-content: space-between;
-    padding: 2dvh;
-    flex-wrap: wrap;
-} */
-
 .news, .ads {
     background-color: var(--white-color);
     border-radius: 1dvh;
@@ -87,7 +81,6 @@ body {
     margin-bottom: 2dvh;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    
 }
 
 .news img, .ads img {
@@ -148,15 +141,19 @@ h2{
     width: 30dvw;
     height: auto;
     flex-direction: column;
-    
+}
+
+.box p{
+    text-align: justify;
+  text-justify: inter-word;
 }
 .minden{
-    justify-content: center;
-    align-items: center;
     display:flex;
     flex-wrap: wrap;
     height: 100%;
     gap: 10px;
+    padding-left: 1dvw;
+    padding-top: 3dvh;
 }
 
 a{
@@ -215,17 +212,14 @@ a{
   
   .change .bar3 {transform: translate(0, -11px) rotate(45deg);}
   
-  .dropdown {
-        
-        display: inline-block;
-    }
+  .dropdown {display: inline-block;}
   
   .dropdown-content {
         display: none;
         position: absolute;
         background-color: #f1f1f1;
         left: 0;
-        top: 93px;
+        top: 82px;
         width:  100vw;
         overflow: auto;
         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -238,9 +232,10 @@ a{
     }    
   .dropdown-content a {
         color: black;
-        padding: 12px 16px;
+        padding: 13px 16px;
         text-decoration: none;
         display: block;
+        font-weight: bold;
     }
   
   .dropdown a:hover {background-color: #ddd;}
