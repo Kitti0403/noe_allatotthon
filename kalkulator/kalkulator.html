@@ -20,12 +20,12 @@
                 </header>
             </div>
             <div class="row2">
-                <button class="buttonKutya" value="kutya">Kutya</button>
-                <button class="buttonMacska" value="macska">Macska</button>
+                <button class="buttonKutya" data-animal="kutya">Kutya</button>
+                <button class="buttonMacska" data-animal="macska">Macska</button>
             </div>
             <div class="row3">
-                <button class="buttonHorse" value="horse">Ló</button>
-                <button class="buttonGoat" value="goat">Kecse</button>
+                <button class="buttonHorse" data-animal="lo">Ló</button>
+                <button class="buttonGoat" data-animal="kecske">Kecse</button>
             </div>
 
             <div class="columns">
@@ -33,7 +33,7 @@
                     <header>
                         <h1>Hány kilós?</h1>
                     </header>
-                    <input type="number" name="kilo" id="kilo" class="kiloInput">
+                    <input type="number" name="kilo" id="kilo" class="kiloInput" min="0">
                     <header>
                         <h1>Milyen idős?</h1>
                     </header>
