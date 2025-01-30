@@ -20,7 +20,6 @@ body {
 
 .header {
     background-color: var(--header-background-color);
-    padding: 1dvh;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -43,18 +42,18 @@ body {
     width: 100%;
     display: flex;
     gap: 2dvh;
-    align-items: center
+    align-items: center;
+    padding: 20px;
 }
 
 .header .nav button {
     background-color: var(--button-background-color);
     border: none;
-    padding: 1dvh 2dvh;
+    padding: 1dvh 6dvh;
     border-radius: 2dvh;
     font-size: 1.6dvh;
     cursor: pointer;
     height: 100% !important; 
-    width: 258px !important;
 }
 
 .header .nav button:hover {
@@ -217,7 +216,7 @@ a{
   .change .bar3 {transform: translate(0, -11px) rotate(45deg);}
   
   .dropdown {
-        position: relative;
+        
         display: inline-block;
     }
   
@@ -225,17 +224,17 @@ a{
         display: none;
         position: absolute;
         background-color: #f1f1f1;
-        right: 0;
-        min-width:  100dvw;
+        left: 0;
+        top: 93px;
+        width:  100vw;
         overflow: auto;
         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
         z-index: 10000000000;
-        margin-left: 100px;
-        position: fixed;
-        margin-top: 18px;
     }
     .phonedrop{
         text-align: center ;
+        font-size: larger;
+        border-bottom:solid 1px #c5c4c4;
     }    
   .dropdown-content a {
         color: black;
@@ -252,6 +251,7 @@ a{
 
 
   .minden {
+        align-items: normal;
         display: flex;
         height: 100%;
         gap: 10px;
@@ -261,7 +261,10 @@ a{
     
     .box{width: 80dvw;}
 
-    .info{width: 100%;}
+    .info{
+        width: 100%;
+        margin: 1dvw;
+    }
 
     .header .nav{justify-content: space-between;}
 
